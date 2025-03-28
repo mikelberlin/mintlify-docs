@@ -8,56 +8,30 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  {
   "navigation": {
-    "version": "Nexus",
-    "tabs": [
+    "versions": [
       {
-        "tab": "Guides",
+        "version": "1.0.0",
         "groups": [
           {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
+            "group": "Getting Started",
+            "pages": ["v1/overview", "v1/quickstart", "v1/development"]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "version": "2.0.0",
         "groups": [
           {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "group": "Getting Started",
+            "pages": ["v2/overview", "v2/quickstart", "v2/development"]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
+    ]
+  }
+}
         {
           "anchor": "Documentation",
           "href": "https://mintlify.com/docs",
